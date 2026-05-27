@@ -1,0 +1,6 @@
+{
+  "name": "HeliosPlan Solar PV Estimator",
+  "description": "Evaluate solar PV energy yield using NASA POWER weather time series and coordinate/KML-KMZ polygon uploads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
