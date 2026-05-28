@@ -311,18 +311,6 @@ export default function ResultsDashboard({
                   <span className="w-1.5 h-3 bg-slate-800 rounded-xs"></span>
                   Imprimir Ficha Técnica Oficial (PDF)
                 </div>
-                
-                {/* Embedded alert for development browser sandbox limits */}
-                <div className="bg-amber-50 border border-amber-200/50 p-3 rounded-lg text-[10.5px] text-amber-800 leading-normal mb-4">
-                  <div className="flex items-center gap-1 font-bold mb-1 col-span-1">
-                    <HelpCircle className="w-3.5 h-3.5 text-amber-600 shrink-0" />
-                    ¿El panel de impresión no abre?
-                  </div>
-                  Al estar dentro del visor integrado de AI Studio (iframe sandboxed), el navegador bloquea las ventanas emergentes por motivos de seguridad. 
-                  <span className="font-semibold block mt-1 text-amber-900">
-                    Solución: Abre HeliosPlan en una pestaña nueva usando el botón en la esquina superior derecha y haz clic en "Exportar &rarr; Imprimir Reporte".
-                  </span>
-                </div>
 
                 <button
                   type="button"

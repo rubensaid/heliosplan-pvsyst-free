@@ -47,20 +47,25 @@
 
 /* Professional Print Formats & Hide Styles */
 @media print {
-  body {
+  html, body, #root, .min-h-screen, .flex {
+    height: auto !important;
+    min-height: auto !important;
+    display: block !important;
     background-color: white !important;
     color: black !important;
+  }
+  
+  body {
     font-size: 11px !important;
   }
+  
   .printing-hide {
     display: none !important;
   }
+  
   #print-view-section {
     display: block !important;
     padding: 0 !important;
-  }
-  #root {
-    display: none !important;
   }
 }
 

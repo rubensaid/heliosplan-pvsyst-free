@@ -335,7 +335,7 @@ export default function App() {
       </header>
 
       {/* Main Grid Content Panels */}
-      <main className="flex-1 max-w-[1600px] w-full mx-auto p-4 sm:p-6 md:p-8 grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+      <main className="flex-1 max-w-[1600px] w-full mx-auto p-4 sm:p-6 md:p-8 grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch printing-hide">
         
         {/* LEFT COLUMN: Map View + Config Input (spanning 5/12 cols) */}
         <section className="col-span-1 lg:col-span-5 flex flex-col gap-6 printing-hide">
